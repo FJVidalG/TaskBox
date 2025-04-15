@@ -13,16 +13,6 @@ Aplicación para gestión de tareas con listas personalizables y prioridades. **
 | **Tareas**       | - Prioridades (Alta/Media/Baja) <br> - Fechas <br> - Etiquetas personalizadas |
 | **UI/UX**        | - Diseño Material 3 <br> - Preview dinámicos |
 
-## 🛠️ Tecnologías
-**Core**
-- Kotlin 1.9
-- Jetpack Compose (v2023.08.00)
-- Material 3 Design
-
-**Arquitectura**
-- Patrón Repository (`TaskRepository`)
-- Componentes `@Composable` reutilizables
-
 ## 📂 Estructura
 ```text
 src/main/java/com/fjvid/taskbox/
@@ -32,6 +22,16 @@ src/main/java/com/fjvid/taskbox/
     └── screens/     # TaskFormScreen, ListsScreen
     └── themes/      # Elementos visuales
 ```
+
+## 🛠️ Tecnologías
+**Core**
+- Kotlin 1.9
+- Jetpack Compose (v2023.08.00)
+- Material 3 Design
+
+**Arquitectura**
+- Patrón Repository (`TaskRepository`)
+- Componentes `@Composable` reutilizables
 
 ## 🚧 Roadmap (Próximos Pasos)
 1. **Almacenamiento Persistente**  

@@ -4,6 +4,7 @@
 [![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpack-compose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-yellow)](https://opensource.org/licenses/MIT)
 
 Aplicación para gestión de tareas con listas personalizables y prioridades. **En desarrollo activo**.
 

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TaskBox</string>
+    <!-- ListScreen -->
+    <string name="add_new_list">Añadir nueva lista</string>
+    <string name="default_list_name">Default</string>
+
+    <!-- TaskFormScreen/TaskInfoScreen -->
+    <string name="task_name_hint">Nombre de la tarea</string>
+    <string name="description_hint">Descripción</string>
+    <string name="priority_label">Prioridad</string>
+    <string name="start_date_label">Fecha de inicio</string>
+    <string name="tags_label">Etiquetas (separadas por comas)</string>
+    <string name="tags_header">Etiquetas</string>
+    <string name="create_task_button">Crear tarea</string>
+    <string name="update_task_button">Actualizar tarea</string>
+    <string name="completed_label">Tarea completada</string>
+    <string name="high_priority">Alta</string>
+    <string name="medium_priority">Media</string>
+    <string name="low_priority">Baja</string>
+
+    <!-- ListFormScreen -->
+    <string name="list_name_hint">Nombre de la lista</string>
+    <string name="list_color_label">Color de la lista</string>
+    <string name="create_list_button">Crear lista</string>
+    <string name="update_list_button">Actualizar lista</string>
+
+    <!-- TasksScreen -->
+    <string name="add_item">Añadir Tarea</string>
+</resources>

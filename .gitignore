@@ -1,0 +1,79 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Android Studio y archivos de IDE
+/.idea
+*.ipr
+*.iws
+.gradle/
+.navigation/
+captures/
+
+# Build
+/build/
+/output/
+/app/build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Archivos generados por el sistema
+*.log
+*.log.*
+*.hprof
+*.keystore
+*.jks
+*.p12
+*.cert
+*.key
+
+# Archivos de configuración personalizados
+*.env
+*.env.*
+
+# macOS
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos temporales
+*.swp
+*.swo
+*.bak
+
+# Firebase y servicios de Google
+google-services.json
+google-services.json.enc
+firebase_crashlytics_symbols.zip
+
+# Jetpack Compose específico
+/compose-app/.cxx/
+app/.cxx/
+
+# Módulos externos (si aplica)
+.externalNativeBuild/
+
+# Testing
+/androidTest/
+/test/
+
+# Librerías nativas (NDK)
+.obj
+.lib/
+.so

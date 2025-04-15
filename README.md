@@ -13,7 +13,7 @@ Aplicación para gestión de tareas con listas personalizables y prioridades. **
 | **Tareas**       | - Prioridades (Alta/Media/Baja) <br> - Fechas <br> - Etiquetas personalizadas |
 | **UI/UX**        | - Diseño Material 3 <br> - Preview dinámicos |
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Tecnologías
 **Core**
 - Kotlin 1.9
 - Jetpack Compose (v2023.08.00)

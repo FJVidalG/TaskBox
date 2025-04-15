@@ -1,6 +1,7 @@
 # TaskBox 📝 - Gestor de Tareas con Jetpack Compose
 
 [![Estado](https://img.shields.io/badge/Estado-🚧_En_Desarrollo-orange)](https://github.com/tu-usuario/taskbox)
+[![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpack-compose&logoColor=white)](https://developer.android.com/jetpack/compose)
 

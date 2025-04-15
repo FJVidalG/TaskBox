@@ -6,32 +6,38 @@
 
 Aplicación para gestión de tareas con listas personalizables y prioridades. **En desarrollo activo**.
 
-## 📌 Características Principales
-| Módulo           | Funcionalidades Implementadas                |
-|------------------|----------------------------------------------|
-| **Listas**       | - Creación con nombre/color <br> - Edición   |
-| **Tareas**       | - Prioridades (Alta/Media/Baja) <br> - Fechas <br> - Etiquetas personalizadas |
-| **UI/UX**        | - Diseño Material 3 <br> - Preview dinámicos |
+## 🔧 Tecnologías y Arquitectura
+
+| Componente           | Tecnología/Librería                                                                 | Función                                                                 |
+|----------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Lenguaje principal   | **Kotlin 1.9**                                                                      | Desarrollo nativo                              |
+| Arquitectura         | **MVVM**                                                                            | Separación limpia View - ViewModel - Model                             |
+| UI Toolkit           | **Jetpack Compose**                                                | Construcción declarativa de interfaces                                 |
+| Gestión de estado    | **ViewModel + StateFlow (Próxima implementación)**                                                           | Flujo reactivo de datos y estado compartido                            |
+| Diseño               | **Material 3**                                                                      | Sistema de diseño moderno con theming dinámico                         |
+| Navegación           | **Compose Navigation 2.8.0 (Próxima implementación)**                                                        | Gestión de flujos con type-safe arguments                              |
+| Persistencia         | **Room (Próxima implementación)**                                                   | Almacenamiento local con SQLite y DAOs                                 |
+| Dependencias         | **Gradle 8.1.1**                                                                    | Builds modularizados con Convention Plugins                            |
+
 
 ## 📂 Estructura
 ```text
 src/main/java/com/fjvid/taskbox/
-├── data/            # Modelos y repositorios
-└── ui/              # Pantallas y componentes
-    ├── components/  # PrioritySelector, DatePickerField
-    └── screens/     # TaskFormScreen, ListsScreen
-    └── themes/      # Elementos visuales
+├── data/              # Modelos y repositorios  
+├── ui/
+│   ├── components/    # Componentes reutilizables
+│   ├── screens/       # Vistas de la app
+│   └── theme/         # Elementos visuales
+└── MainActivity.kt    # Punto de entrada   
 ```
 
-## 🛠️ Tecnologías
-**Core**
-- Kotlin 1.9
-- Jetpack Compose (v2023.08.00)
-- Material 3 Design
+## 📌 Características Principales
+| Módulo           | Funcionalidades Implementadas                |
+|------------------|----------------------------------------------|
+| **Listas**       | - Creación con nombre/color <br> - Edición   |
+| **Tareas**       | - Campos obligatorios y opcionales <br> - Descripciones detalladas (multilínea) <br> - Prioridades (Alta/Media/Baja) <br> - Fechas configurables <br> - Etiquetas personalizadas |
+| **UI/UX**        | - Diseño Material 3 <br> - Preview dinámicos <br> - Validación en tiempo real |
 
-**Arquitectura**
-- Patrón Repository (`TaskRepository`)
-- Componentes `@Composable` reutilizables
 
 ## 🚧 Roadmap (Próximos Pasos)
 1. **Almacenamiento Persistente**  
@@ -48,6 +54,17 @@ src/main/java/com/fjvid/taskbox/
 | Vista de Listas | Creación de Tareas |
 |-----------------|--------------------|
 | ![Lists](url_img)| ![Task](url_img)   |
+
+## 📱 Compatibilidad y Requisitos
+
+| Característica          | Detalle                                                                 |
+|-------------------------|-------------------------------------------------------------------------|
+| **Versión mínima**      | Android 14 (API 34)                                                    |
+| **Versión objetivo**    | Android 14+ (API 35)                                                   |
+| **Dispositivos**        | Teléfonos y tablets con resolución HD+ (720x1280) o superior           |
+| **Orientación**         | Soporte completo para Portrait y Landscape                             |
+| **Densidad de pantalla**| Optimizado para mdpi (160dpi) a xxxhdpi (640dpi)                       |
+| **RAM recomendada**     | Mínimo 2GB (4GB para uso óptimo con listas complejas)         
 
 ## 👤 Autor
 

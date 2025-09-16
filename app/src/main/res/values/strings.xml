@@ -1,29 +1,100 @@
 <resources>
+    <!-- App Name -->
     <string name="app_name">TaskBox</string>
-    <!-- ListScreen -->
-    <string name="add_new_list">Añadir nueva lista</string>
+
+    <!-- HomeScreen -->
+    <string name="list_title_homescreen">Categories</string>
+    <string name="description_list_homescreen">View all Categories</string>
+    <string name="task_title_homescreen">Tasks</string>
+    <string name="description_task_homescreen">View all tasks</string>
+    <string name="go_to_lists">Go to Categories</string>
+    <string name="go_to_tasks">Go to Tasks</string>
+
+    <!-- Categories -->
+    <string name="categories">Categories</string>
+    <string name="add_new_list">Add new category</string>
     <string name="default_list_name">Default</string>
+    <string name="list_name_hint">Category name</string>
+    <string name="list_color_label">Category color</string>
+    <string name="create_category">Create category</string>
+    <string name="update_list_button">Update category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="no_data_category">No categories created</string>
+    <string name="delete_category">Delete category</string>
+    <string name="confirm_delete_title_category">Delete category</string>
+    <string name="confirm_delete_message_category">Are you sure you want to eliminate this category?</string>
 
-    <!-- TaskFormScreen/TaskInfoScreen -->
-    <string name="task_name_hint">Nombre de la tarea</string>
-    <string name="description_hint">Descripción</string>
-    <string name="priority_label">Prioridad</string>
-    <string name="start_date_label">Fecha de inicio</string>
-    <string name="tags_label">Etiquetas (separadas por comas)</string>
-    <string name="tags_header">Etiquetas</string>
-    <string name="create_task_button">Crear tarea</string>
-    <string name="update_task_button">Actualizar tarea</string>
-    <string name="completed_label">Tarea completada</string>
-    <string name="high_priority">Alta</string>
-    <string name="medium_priority">Media</string>
-    <string name="low_priority">Baja</string>
+    <!-- Tasks -->
+    <string name="tasks">Tasks</string>
+    <string name="add_item">Add Task</string>
+    <string name="all_tasks">All Task</string>
+    <string name="task_name_hint">Task name</string>
+    <string name="description_hint">Description</string>
+    <string name="priority_label">Priority</string>
+    <string name="start_date_label">Start date</string>
+    <string name="tags_header">Tags</string>
+    <string name="create_task">Create task</string>
+    <string name="update_task_button">Update task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete_task">Delete task</string>
+    <string name="confirm_delete_title_task">Delete Task</string>
+    <string name="confirm_delete_message_task">Are you sure you want to eliminate this task?</string>
+    <string name="no_data_task">No tasks created</string>
 
-    <!-- ListFormScreen -->
-    <string name="list_name_hint">Nombre de la lista</string>
-    <string name="list_color_label">Color de la lista</string>
-    <string name="create_list_button">Crear lista</string>
-    <string name="update_list_button">Actualizar lista</string>
+    <!-- Task Details -->
+    <string name="completed_label">Task completed</string>
+    <string name="category">Category</string>
+    <string name="task">Task</string>
+    <string name="status">Status</string>
+    <string name="date">Date</string>
+    <string name="details">Details</string>
+    <string name="select_date">Select date</string>
 
-    <!-- TasksScreen -->
-    <string name="add_item">Añadir Tarea</string>
+    <!-- Priority -->
+    <string name="high_priority">High</string>
+    <string name="medium_priority">Medium</string>
+    <string name="low_priority">Low</string>
+    <string name="urgent_priority">Urgent</string>
+
+    <!-- Status -->
+    <string name="status_completed">Completed</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_canceled">Canceled</string>
+
+    <!-- Errors & Validation -->
+    <string name="name_empty_list">Category name cannot be empty</string>
+    <string name="name_repeat_list">Category name cannot be repeated</string>
+    <string name="name_empty_task">Task name cannot be empty</string>
+    <string name="name_repeat_task">Task name cannot be repeated</string>
+    <string name="delete_restriction">Cannot delete a category that has associated tasks</string>
+    <string name="delete_restriction_default">The Default category cannot be deleted</string>
+    <string name="default_color_not_editable">"Default" category cannot change colour</string>
+    <string name="error_title">Delete error</string>
+    <string name="color_empty_list">You must choose a colour</string>
+
+    <!-- Common Dialog -->
+    <string name="confirm">Confirm</string>
+    <string name="dismiss">Cancel</string>
+    <string name="close">Close</string>
+
+    <!-- Notifications -->
+    <string name="title_notification">Urgent Task</string>
+    <string name="tasks_notification">New Task!</string>
+    <string name="body_tasks_notification">A new task has been created!</string>
+    <string name="description_channel_notification">Channel for urgent notifications</string>
+    <string name="title_notification_permission">Notification Permission</string>
+    <string name="notification_permission_granted">Notifications permission granted</string>
+    <string name="notification_permission_rationale">This app needs permission to send you daily task reminders.</string>
+    <string name="permission_denied_settings">You have denied the permission. Open settings to enable it manually.</string>
+    <string name="request_permission">Request Notification Permission</string>
+    <string name="open_settings">Open app settings</string>
+    <string name="go_back">Go back</string>
+
+    <!-- Misc -->
+    <string name="loading">Loading database…</string>
+    <string name="order_asc">Ascending order</string>
+    <string name="order_desc">Descending order</string>
+    <string name="search_tags">Search by tags</string>
+
+
 </resources>

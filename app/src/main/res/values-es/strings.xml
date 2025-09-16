@@ -1,0 +1,100 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">TaskBox</string>
+
+    <!-- HomeScreen -->
+    <string name="list_title_homescreen">Categorías</string>
+    <string name="description_list_homescreen">Ver todas las Categorías</string>
+    <string name="task_title_homescreen">Tareas</string>
+    <string name="description_task_homescreen">Ver todas las tareas</string>
+    <string name="go_to_lists">Ir a Categorías</string>
+    <string name="go_to_tasks">Ir a Tareas</string>
+
+    <!-- Categorías -->
+    <string name="categories">Categorías</string>
+    <string name="add_new_list">Añadir nueva categoría</string>
+    <string name="default_list_name">Default</string>
+    <string name="list_name_hint">Nombre de la categoría</string>
+    <string name="list_color_label">Color de la categoría</string>
+    <string name="create_category">Crear categoría</string>
+    <string name="update_list_button">Actualizar categoría</string>
+    <string name="edit_category">Editar categoría</string>
+    <string name="no_data_category">No hay ninguna categoría creada</string>
+    <string name="delete_category">Borrar categoría</string>
+    <string name="confirm_delete_title_category">Eliminar categoría</string>
+    <string name="confirm_delete_message_category">¿Seguro que quieres eliminar esta categoría?</string>
+
+    <!-- Tareas -->
+    <string name="tasks">Tareas</string>
+    <string name="all_tasks">Todas las Tareas</string>
+    <string name="add_item">Añadir Tarea</string>
+    <string name="task_name_hint">Nombre de la tarea</string>
+    <string name="description_hint">Descripción</string>
+    <string name="priority_label">Prioridad</string>
+    <string name="start_date_label">Fecha de inicio</string>
+    <string name="tags_header">Etiquetas</string>
+    <string name="create_task">Crear tarea</string>
+    <string name="update_task_button">Actualizar tarea</string>
+    <string name="edit_task">Editar tarea</string>
+    <string name="delete_task">Eliminar tarea</string>
+    <string name="confirm_delete_title_task">Eliminar tarea</string>
+    <string name="confirm_delete_message_task">¿Seguro que quieres eliminar esta tarea?</string>
+    <string name="no_data_task">No hay ninguna tarea creada</string>
+
+    <!-- Detalles de Tarea -->
+    <string name="completed_label">Tarea completada</string>
+    <string name="category">Categoría</string>
+    <string name="details">Detalles</string>
+    <string name="task">Tarea</string>
+    <string name="status">Estado</string>
+    <string name="date">Fecha</string>
+    <string name="select_date">Seleccionar fecha</string>
+
+    <!-- Prioridad -->
+    <string name="high_priority">Alta</string>
+    <string name="medium_priority">Media</string>
+    <string name="low_priority">Baja</string>
+    <string name="urgent_priority">Urgente</string>
+
+    <!-- Estado -->
+    <string name="status_completed">Completada</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_canceled">Cancelada</string>
+
+    <!-- Validación / Errores -->
+    <string name="name_empty_list">El nombre de la categoría no puede estar vacío</string>
+    <string name="name_repeat_list">El nombre de la categoría no puede estar repetido</string>
+    <string name="name_empty_task">El nombre de la tarea no puede estar vacío</string>
+    <string name="name_repeat_task">El nombre de la tarea no puede estar repetido</string>
+    <string name="delete_restriction">No se puede eliminar una categoría que tiene tareas asociadas </string>
+    <string name="delete_restriction_default">La categoría "Default" no se puede eliminar</string>
+    <string name="default_color_not_editable">La categoría "Default" no puede cambiar de color</string>
+    <string name="error_title">Error al eliminar</string>
+    <string name="color_empty_list">Debes elegir un color</string>
+
+    <!-- Diálogos comunes -->
+    <string name="confirm">Confirmar</string>
+    <string name="dismiss">Cancelar</string>
+    <string name="close">Cerrar</string>
+
+    <!-- Notificaciones -->
+    <string name="title_notification">Tarea Urgente</string>
+    <string name="tasks_notification">¡Nueva Tarea!</string>
+    <string name="body_tasks_notification">¡Se ha creado una nueva tarea!</string>
+    <string name="description_channel_notification">Canal para notificaciones urgentes</string>
+    <string name="title_notification_permission">Permiso de notificaciones</string>
+    <string name="notification_permission_granted">Permiso de notificaciones concedido</string>
+    <string name="notification_permission_rationale">Esta aplicación necesita permiso para enviarte recordatorios diarios de tus tareas.</string>
+    <string name="permission_denied_settings">Has denegado el permiso. Abre los ajustes para activarlo manualmente.</string>
+    <string name="request_permission">Solicitar permiso de notificaciones</string>
+    <string name="open_settings">Abrir los ajustes de la app</string>
+    <string name="go_back">Volver</string>
+
+    <!-- Otros -->
+    <string name="loading">Cargando base de datos…</string>
+    <string name="order_asc">Orden ascendete</string>
+    <string name="order_desc">Orden descendente</string>
+    <string name="search_tags">Búsqueda por etiquetas</string>
+
+
+</resources>

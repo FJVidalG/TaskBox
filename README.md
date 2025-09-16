@@ -1,12 +1,12 @@
 # TaskBox 📝 - Gestor de Tareas con Jetpack Compose
 
-[![Estado](https://img.shields.io/badge/Estado-🚧_En_Desarrollo-orange)](https://github.com/tu-usuario/taskbox)
+[![Estado](https://img.shields.io/badge/Estado-✅_Finalizado-brightgreen)](https://github.com/tu-usuario/taskbox)
 [![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpack-compose&logoColor=white)](https://developer.android.com/jetpack/compose)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-Aplicación para gestión de tareas con listas personalizables y prioridades. **En desarrollo activo**.
+Aplicación para gestión de tareas con listas personalizables y prioridades.
 
 ## 🔧 Tecnologías y Arquitectura
 
@@ -18,20 +18,9 @@ Aplicación para gestión de tareas con listas personalizables y prioridades. **
 | Gestión de estado    | **ViewModel + StateFlow (Próxima implementación)**                                                           | Flujo reactivo de datos y estado compartido                            |
 | Diseño               | **Material 3**                                                                      | Sistema de diseño moderno con theming dinámico                         |
 | Navegación           | **Compose Navigation 2.8.0 (Próxima implementación)**                                                        | Gestión de flujos con type-safe arguments                              |
-| Persistencia         | **Room (Próxima implementación)**                                                   | Almacenamiento local con SQLite y DAOs                                 |
+| Persistencia         | **Room**                                                   | Almacenamiento local con SQLite y DAOs                                 |
 | Dependencias         | **Gradle 8.1.1**                                                                    | Builds modularizados con Convention Plugins                            |
 
-
-## 📂 Estructura
-```text
-src/main/java/com/fjvid/taskbox/
-├── data/              # Modelos y repositorios  
-├── ui/
-│   ├── components/    # Componentes reutilizables
-│   ├── screens/       # Vistas de la app
-│   └── theme/         # Elementos visuales
-└── MainActivity.kt    # Punto de entrada   
-```
 
 ## 📌 Características Principales
 | Módulo           | Funcionalidades Implementadas                |
@@ -41,16 +30,13 @@ src/main/java/com/fjvid/taskbox/
 | **UI/UX**        | - Diseño Material 3 <br> - Preview dinámicos <br> - Validación en tiempo real |
 
 
-## 🚧 Roadmap (Próximos Pasos)
-1. **Almacenamiento Persistente**  
-   - Room Database (SQLite)
-   - Sync con Firebase
-2. **Navegación Avanzada**  
-   - BottomNavigationBar
-   - Pantalla de estadísticas
-3. **Testing**  
-   - Pruebas de integración
-   - CI/CD con GitHub Actions
+## 🚀 Características Finales
+- Gestión de listas y tareas con prioridades
+- Base de datos Room
+- Notificaciones
+- Navegación
+- Diseño Material 3
+- Arquitectura MVVM con Hilt
 
 ## 🖼️ Capturas de Pantalla
 | Vista de Listas | Creación de Tareas |
